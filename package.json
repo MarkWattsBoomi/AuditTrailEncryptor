@@ -1,0 +1,16 @@
+{
+    "name": "audit-encrypt",
+    "version": "0.1.0",
+    "main": "application.ts",
+    "license": "MIT",
+    "dependencies": {
+        "crypto-js": "^3.3.0"
+    },
+    "devDependencies": {
+        "nexe": "3.3.7"
+    },
+    "scripts": {
+        "start": "node application",
+        "build-win": "nexe -i application.js -t win-x64-12.6.0 -o encrypt.exe"
+    }
+}
